@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body>
         <>
           <MainHeader />
-          {children}
+          <>{children}</>
         </>
       </body>
     </html>
